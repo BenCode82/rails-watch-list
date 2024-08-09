@@ -1,8 +1,7 @@
-<!-- app/views/articles/index.html.erb -->
-<%#= cl_image_tag("wqpjitbym3obmikinsiw",
-      width: 400, height: 300, crop: :fill) %>
-
 <h1>Lists#index</h1>
+
+<%= cl_image_tag("wqpjitbym3obmikinsiw",
+      width: 400, height: 300, crop: :fill) %>
 
 <% @lists.each do |list| %>
   <%= link_to "#{list.name}", list_path(list), class: "btn btn-success" %><br>

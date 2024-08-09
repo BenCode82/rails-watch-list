@@ -70,3 +70,7 @@ end
 
 gem 'rspec-rails', group: [ :test ]
 gem 'rails-controller-testing', group: [ :test ]
+
+gem "dotenv-rails", group: [:development, :test ]
+
+gem "cloudinary", "~> 2.1"
